@@ -1,0 +1,31 @@
+header{
+	text-align: left;
+	font-family: Forum;
+	font color: #223A7C;
+}
+
+footer{
+	background-color: white;
+	text-align: center;
+    font-family:Forum;
+    font color:#0EA8C3;
+}
+
+body{
+	background-color:#FFFBEA;
+}
+
+C1{
+    font-family:Forum;
+    font color:#9C9B9B;
+    font-size: 1.5em;
+}
+
+p{
+    text-align: center;
+    font-family:Forum;
+    font color:#9C9B9B;
+    font-size: 1.5em;
+}
+
+
