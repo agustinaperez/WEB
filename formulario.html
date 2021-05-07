@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <title>PEREZ</title>
+
+<body>
+    
+
+  <form action="mailto:atropeano@murialdo.edu.ar" method="post" enctype="text/plain">
+  
+  <!--input type  -->
+ Ingrese aquí su nombre :
+  <input type="text" name="nombre">
+  <br>
+  Ingrese aquí su dirección de correo electronico :
+  <input type="text" name="mail">
+  <br>
+  Ingrese aquí su número de teléfono :
+  <input type="text" name="telefono">
+  <br>
+
+  <br>
+   <!--cuadro de texto  -->
+  <textarea name="p" rows="10" cols="40">  Si desea realizar un pedido, ingrese aquí su encargo....</textarea>
+  <br>
+ 
+<br>
+ <!--lista desplegable  -->
+ Seleccione el insumo informático que desee adquirir :
+  <br>
+  <select name="Opciones">
+    <option value = "Hardware">Hardware</option>
+    <option value = "Software">Software</option>
+    <option value ="Mantenimiento">Mantenimiento</option>
+    <option value= "Reparación">Reparación</option>
+    </select>
+    <br>
+
+    
+    <br>
+   <!--opciones  -->
+   Marqué el medio de pago con el que desea realizar su compra :
+   <br>
+    <input type="radio" id="Tarjeta" name="Turno" value="Tarjeta" >
+    <label for= "Tarjeta">Tarjeta</label>
+    <br>
+      <input type="radio" id="Efectivo" name="Turno" value="Efectivo">
+      <label for= "Efectivo">Efectivo</label>
+     <br>  
+   <input type="radio" id="Transferencia bancaria" name="Turno" value="Transferencia bancaria">
+     <label for= "Transferencia bancaria">Transferencia bancaria</label>
+  
+  <br>
+  <br>
+    <!--cuadro de texto  -->
+   <textarea name="comentario" rows="10" cols="40">Si desea hacernos alguna recomendación o dejar su comentario, déjelo aquí....</textarea>
+  <br>
+
+
+  <!--botón  -->
+  <br>
+     <input type="submit" value="Enviar">
+  </form>
+
+</body>
+
+</html>
